@@ -1,7 +1,7 @@
 export default {
 
-    maxWidth: "(max-width: 768px)",
+    maxWidth: "(max-width: 1223px)",
 
-    minWidth: "(min-width: 769px)"
+    minWidth: "(min-width: 1224px)"
 
 };

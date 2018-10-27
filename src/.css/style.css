@@ -1,37 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,800');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 
+
 .main {
     background: linear-gradient(45degree,#11998e,#38ef7d);    
     height: 100vh;
     width: 100vw;
 }
-.main .BigTitle{
+.title {
     position: absolute;
-    top: 4%;
-    padding-left: 9%;
-    color: rgba(0, 0, 0, .20);
-    font-weight: 900;
-    font-size: 25vh;
-    font-family:'Montserrat', sans-serif;
-}
-.main .SubTitle{    
-    position: absolute;
-    top: 80%;
-    padding-left: 10%;
-    color:  rgb(246, 243, 243);
-    font-weight: 200;
-    font-size: 2em;
+    z-index: 1;
     font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, .20);
+    font-size: 10.5em;
+    font-weight: 600;
+    padding-left: 40%;
 }
 
-.main .SubTitle2{
+.uppertitle {
     position: absolute;
-    top: 33%;
-    padding-left: 33%;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 4em;
+    z-index: 2;
     font-family: 'Montserrat', sans-serif;
-    
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 5em;
+    font-weight: 100;
+    padding-left: 25.5%;
+    margin-top: 17.3%;
 }
+.upp{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(255, 255, 255, 0.904);;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-left:5.5%;
+    top: 87%;
+}
+
+.playicon{
+    position: absolute;
+    bottom: 4%;
+    left: 2.2%;
+    width:40%;
+    opacity: 0.6;
+}
+
+.social {
+    position: absolute;
+    top: 91%;
+    left: 93%;
+    width: 40%;
+    opacity: 0.6;
+}
+

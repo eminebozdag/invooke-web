@@ -3,7 +3,8 @@ import '../.css/style.css';
 import MediaQuery from 'react-responsive';
 import g from '../global.js';
 import Title from './Title.jsx';
-import Content from './Content.jsx';
+import SocialIcons from './SocialIcons.jsx';
+import UpperTitle from './UpperTitle.jsx';
 
 
 
@@ -13,7 +14,8 @@ export default class MainPage extends React.Component {
         <div className='main'>
             <MediaQuery query={g.minWidth}></MediaQuery>
             <Title />
-            <Content />
+            <UpperTitle />
+            <SocialIcons />
         </div>
     );}
 }
